@@ -1,0 +1,908 @@
+predictor: TransEPI
+pos_label: BENGI-P
+test_label: removedCommonTest-N
+BENGI-N(retained)   : GM12878   : Balanced accuracy: 0.879
+BENGI-N(removed)    : GM12878   : Balanced accuracy: 0.861
+CBMF-N              : GM12878   : Balanced accuracy: 0.895
+CBGS-N              : GM12878   : Balanced accuracy: 0.899
+BENGI-N(retained)   : HeLa-S3   : Balanced accuracy: 0.774
+BENGI-N(removed)    : HeLa-S3   : Balanced accuracy: 0.757
+CBMF-N              : HeLa-S3   : Balanced accuracy: 0.811
+CBGS-N              : HeLa-S3   : Balanced accuracy: 0.812
+BENGI-N(retained)   : HMEC      : Balanced accuracy: 0.822
+BENGI-N(removed)    : HMEC      : Balanced accuracy: 0.832
+CBMF-N              : HMEC      : Balanced accuracy: 0.869
+CBGS-N              : HMEC      : Balanced accuracy: 0.861
+BENGI-N(retained)   : IMR90     : Balanced accuracy: 0.735
+BENGI-N(removed)    : IMR90     : Balanced accuracy: 0.797
+CBMF-N              : IMR90     : Balanced accuracy: 0.791
+CBGS-N              : IMR90     : Balanced accuracy: 0.795
+BENGI-N(retained)   : K562      : Balanced accuracy: 0.591
+BENGI-N(removed)    : K562      : Balanced accuracy: 0.579
+CBMF-N              : K562      : Balanced accuracy: 0.643
+CBGS-N              : K562      : Balanced accuracy: 0.625
+BENGI-N(retained)   : NHEK      : Balanced accuracy: 0.64
+BENGI-N(removed)    : NHEK      : Balanced accuracy: 0.669
+CBMF-N              : NHEK      : Balanced accuracy: 0.729
+CBGS-N              : NHEK      : Balanced accuracy: 0.702
+
+BENGI-N(retained)   : Average   : Balanced accuracy: 0.74 +- 0.0406
+BENGI-N(removed)    : Average   : Balanced accuracy: 0.749 +- 0.0397
+CBMF-N              : Average   : Balanced accuracy: 0.79 +- 0.0346
+CBGS-N              : Average   : Balanced accuracy: 0.782 +- 0.0381
+
+BENGI-N(retained)   : GM12878   : Specificity : 0.93
+BENGI-N(removed)    : GM12878   : Specificity : 0.954
+CBMF-N              : GM12878   : Specificity : 0.902
+CBGS-N              : GM12878   : Specificity : 0.913
+BENGI-N(retained)   : HeLa-S3   : Specificity : 0.837
+BENGI-N(removed)    : HeLa-S3   : Specificity : 0.879
+CBMF-N              : HeLa-S3   : Specificity : 0.812
+CBGS-N              : HeLa-S3   : Specificity : 0.814
+BENGI-N(retained)   : HMEC      : Specificity : 0.852
+BENGI-N(removed)    : HMEC      : Specificity : 0.887
+CBMF-N              : HMEC      : Specificity : 0.819
+CBGS-N              : HMEC      : Specificity : 0.82
+BENGI-N(retained)   : IMR90     : Specificity : 0.814
+BENGI-N(removed)    : IMR90     : Specificity : 0.826
+CBMF-N              : IMR90     : Specificity : 0.763
+CBGS-N              : IMR90     : Specificity : 0.754
+BENGI-N(retained)   : K562      : Specificity : 0.806
+BENGI-N(removed)    : K562      : Specificity : 0.853
+CBMF-N              : K562      : Specificity : 0.794
+CBGS-N              : K562      : Specificity : 0.831
+BENGI-N(retained)   : NHEK      : Specificity : 0.797
+BENGI-N(removed)    : NHEK      : Specificity : 0.847
+CBMF-N              : NHEK      : Specificity : 0.809
+CBGS-N              : NHEK      : Specificity : 0.768
+
+BENGI-N(retained)   : Average   : Specificity : 0.84 +- 0.0182
+BENGI-N(removed)    : Average   : Specificity : 0.874 +- 0.0168
+CBMF-N              : Average   : Specificity : 0.816 +- 0.0172
+CBGS-N              : Average   : Specificity : 0.817 +- 0.021
+
+BENGI-N(retained)   : GM12878   : Recall      : 0.828
+BENGI-N(removed)    : GM12878   : Recall      : 0.768
+CBMF-N              : GM12878   : Recall      : 0.888
+CBGS-N              : GM12878   : Recall      : 0.885
+BENGI-N(retained)   : HeLa-S3   : Recall      : 0.712
+BENGI-N(removed)    : HeLa-S3   : Recall      : 0.635
+CBMF-N              : HeLa-S3   : Recall      : 0.811
+CBGS-N              : HeLa-S3   : Recall      : 0.811
+BENGI-N(retained)   : HMEC      : Recall      : 0.793
+BENGI-N(removed)    : HMEC      : Recall      : 0.776
+CBMF-N              : HMEC      : Recall      : 0.919
+CBGS-N              : HMEC      : Recall      : 0.902
+BENGI-N(retained)   : IMR90     : Recall      : 0.656
+BENGI-N(removed)    : IMR90     : Recall      : 0.767
+CBMF-N              : IMR90     : Recall      : 0.819
+CBGS-N              : IMR90     : Recall      : 0.837
+BENGI-N(retained)   : K562      : Recall      : 0.375
+BENGI-N(removed)    : K562      : Recall      : 0.306
+CBMF-N              : K562      : Recall      : 0.491
+CBGS-N              : K562      : Recall      : 0.418
+BENGI-N(retained)   : NHEK      : Recall      : 0.483
+BENGI-N(removed)    : NHEK      : Recall      : 0.492
+CBMF-N              : NHEK      : Recall      : 0.648
+CBGS-N              : NHEK      : Recall      : 0.636
+
+BENGI-N(retained)   : Average   : Recall      : 0.641 +- 0.0663
+BENGI-N(removed)    : Average   : Recall      : 0.624 +- 0.0713
+CBMF-N              : Average   : Recall      : 0.763 +- 0.0607
+CBGS-N              : Average   : Recall      : 0.748 +- 0.0699
+
+BENGI-N(retained)   : GM12878   : AUC         : 0.954
+BENGI-N(removed)    : GM12878   : AUC         : 0.962
+CBMF-N              : GM12878   : AUC         : 0.96
+CBGS-N              : GM12878   : AUC         : 0.963
+BENGI-N(retained)   : HeLa-S3   : AUC         : 0.867
+BENGI-N(removed)    : HeLa-S3   : AUC         : 0.886
+CBMF-N              : HeLa-S3   : AUC         : 0.897
+CBGS-N              : HeLa-S3   : AUC         : 0.893
+BENGI-N(retained)   : HMEC      : AUC         : 0.896
+BENGI-N(removed)    : HMEC      : AUC         : 0.919
+CBMF-N              : HMEC      : AUC         : 0.927
+CBGS-N              : HMEC      : AUC         : 0.923
+BENGI-N(retained)   : IMR90     : AUC         : 0.853
+BENGI-N(removed)    : IMR90     : AUC         : 0.874
+CBMF-N              : IMR90     : AUC         : 0.852
+CBGS-N              : IMR90     : AUC         : 0.857
+BENGI-N(retained)   : K562      : AUC         : 0.665
+BENGI-N(removed)    : K562      : AUC         : 0.721
+CBMF-N              : K562      : AUC         : 0.739
+CBGS-N              : K562      : AUC         : 0.731
+BENGI-N(retained)   : NHEK      : AUC         : 0.724
+BENGI-N(removed)    : NHEK      : AUC         : 0.75
+CBMF-N              : NHEK      : AUC         : 0.833
+CBGS-N              : NHEK      : AUC         : 0.823
+
+BENGI-N(retained)   : Average   : AUC         : 0.826 +- 0.0408
+BENGI-N(removed)    : Average   : AUC         : 0.852 +- 0.0357
+CBMF-N              : Average   : AUC         : 0.868 +- 0.0293
+CBGS-N              : Average   : AUC         : 0.865 +- 0.0305
+
+BENGI-N(retained)   : GM12878   : AUPR        : 0.714
+BENGI-N(removed)    : GM12878   : AUPR        : 0.733
+CBMF-N              : GM12878   : AUPR        : 0.696
+CBGS-N              : GM12878   : AUPR        : 0.715
+BENGI-N(retained)   : HeLa-S3   : AUPR        : 0.672
+BENGI-N(removed)    : HeLa-S3   : AUPR        : 0.681
+CBMF-N              : HeLa-S3   : AUPR        : 0.701
+CBGS-N              : HeLa-S3   : AUPR        : 0.684
+BENGI-N(retained)   : HMEC      : AUPR        : 0.858
+BENGI-N(removed)    : HMEC      : AUPR        : 0.876
+CBMF-N              : HMEC      : AUPR        : 0.879
+CBGS-N              : HMEC      : AUPR        : 0.881
+BENGI-N(retained)   : IMR90     : AUPR        : 0.88
+BENGI-N(removed)    : IMR90     : AUPR        : 0.898
+CBMF-N              : IMR90     : AUPR        : 0.856
+CBGS-N              : IMR90     : AUPR        : 0.853
+BENGI-N(retained)   : K562      : AUPR        : 0.545
+BENGI-N(removed)    : K562      : AUPR        : 0.569
+CBMF-N              : K562      : AUPR        : 0.562
+CBGS-N              : K562      : AUPR        : 0.559
+BENGI-N(retained)   : NHEK      : AUPR        : 0.725
+BENGI-N(removed)    : NHEK      : AUPR        : 0.749
+CBMF-N              : NHEK      : AUPR        : 0.767
+CBGS-N              : NHEK      : AUPR        : 0.766
+
+BENGI-N(retained)   : Average   : AUPR        : 0.732 +- 0.0462
+BENGI-N(removed)    : Average   : AUPR        : 0.751 +- 0.0458
+CBMF-N              : Average   : AUPR        : 0.744 +- 0.0436
+CBGS-N              : Average   : AUPR        : 0.743 +- 0.044
+
+BENGI-N(retained)   : GM12878   : MCC         : 0.635
+BENGI-N(removed)    : GM12878   : MCC         : 0.664
+CBMF-N              : GM12878   : MCC         : 0.611
+CBGS-N              : GM12878   : MCC         : 0.634
+BENGI-N(retained)   : HeLa-S3   : MCC         : 0.528
+BENGI-N(removed)    : HeLa-S3   : MCC         : 0.522
+CBMF-N              : HeLa-S3   : MCC         : 0.579
+CBGS-N              : HeLa-S3   : MCC         : 0.583
+BENGI-N(retained)   : HMEC      : MCC         : 0.645
+BENGI-N(removed)    : HMEC      : MCC         : 0.668
+CBMF-N              : HMEC      : MCC         : 0.736
+CBGS-N              : HMEC      : MCC         : 0.721
+BENGI-N(retained)   : IMR90     : MCC         : 0.479
+BENGI-N(removed)    : IMR90     : MCC         : 0.595
+CBMF-N              : IMR90     : MCC         : 0.59
+CBGS-N              : IMR90     : MCC         : 0.604
+BENGI-N(retained)   : K562      : MCC         : 0.199
+BENGI-N(removed)    : K562      : MCC         : 0.188
+CBMF-N              : K562      : MCC         : 0.296
+CBGS-N              : K562      : MCC         : 0.269
+BENGI-N(retained)   : NHEK      : MCC         : 0.307
+BENGI-N(removed)    : NHEK      : MCC         : 0.366
+CBMF-N              : NHEK      : MCC         : 0.471
+CBGS-N              : NHEK      : MCC         : 0.416
+
+BENGI-N(retained)   : Average   : MCC         : 0.465 +- 0.0669
+BENGI-N(removed)    : Average   : MCC         : 0.5 +- 0.0706
+CBMF-N              : Average   : MCC         : 0.547 +- 0.0556
+CBGS-N              : Average   : MCC         : 0.538 +- 0.0615
+
+BENGI-N(retained)   : GM12878   : F1          : 0.661
+BENGI-N(removed)    : GM12878   : F1          : 0.695
+CBMF-N              : GM12878   : F1          : 0.627
+CBGS-N              : GM12878   : F1          : 0.652
+BENGI-N(retained)   : HeLa-S3   : F1          : 0.666
+BENGI-N(removed)    : HeLa-S3   : F1          : 0.65
+CBMF-N              : HeLa-S3   : F1          : 0.701
+CBGS-N              : HeLa-S3   : F1          : 0.705
+BENGI-N(retained)   : HMEC      : F1          : 0.804
+BENGI-N(removed)    : HMEC      : F1          : 0.811
+CBMF-N              : HMEC      : F1          : 0.86
+CBGS-N              : HMEC      : F1          : 0.852
+BENGI-N(retained)   : IMR90     : F1          : 0.729
+BENGI-N(removed)    : IMR90     : F1          : 0.807
+CBMF-N              : IMR90     : F1          : 0.816
+CBGS-N              : IMR90     : F1          : 0.824
+BENGI-N(retained)   : K562      : F1          : 0.442
+BENGI-N(removed)    : K562      : F1          : 0.393
+CBMF-N              : K562      : F1          : 0.535
+CBGS-N              : K562      : F1          : 0.488
+BENGI-N(retained)   : NHEK      : F1          : 0.569
+BENGI-N(removed)    : NHEK      : F1          : 0.596
+CBMF-N              : NHEK      : F1          : 0.704
+CBGS-N              : NHEK      : F1          : 0.685
+
+BENGI-N(retained)   : Average   : F1          : 0.645 +- 0.0471
+BENGI-N(removed)    : Average   : F1          : 0.659 +- 0.0579
+CBMF-N              : Average   : F1          : 0.707 +- 0.0445
+CBGS-N              : Average   : F1          : 0.701 +- 0.0488
+
+BENGI-N(retained)   : GM12878   : Precision   : 0.552
+BENGI-N(removed)    : GM12878   : Precision   : 0.635
+CBMF-N              : GM12878   : Precision   : 0.486
+CBGS-N              : GM12878   : Precision   : 0.517
+BENGI-N(retained)   : HeLa-S3   : Precision   : 0.626
+BENGI-N(removed)    : HeLa-S3   : Precision   : 0.67
+CBMF-N              : HeLa-S3   : Precision   : 0.62
+CBGS-N              : HeLa-S3   : Precision   : 0.624
+BENGI-N(retained)   : HMEC      : Precision   : 0.817
+BENGI-N(removed)    : HMEC      : Precision   : 0.85
+CBMF-N              : HMEC      : Precision   : 0.809
+CBGS-N              : HMEC      : Precision   : 0.808
+BENGI-N(retained)   : IMR90     : Precision   : 0.833
+BENGI-N(removed)    : IMR90     : Precision   : 0.856
+CBMF-N              : IMR90     : Precision   : 0.817
+CBGS-N              : IMR90     : Precision   : 0.817
+BENGI-N(retained)   : K562      : Precision   : 0.557
+BENGI-N(removed)    : K562      : Precision   : 0.57
+CBMF-N              : K562      : Precision   : 0.601
+CBGS-N              : K562      : Precision   : 0.604
+BENGI-N(retained)   : NHEK      : Precision   : 0.759
+BENGI-N(removed)    : NHEK      : Precision   : 0.799
+CBMF-N              : NHEK      : Precision   : 0.804
+CBGS-N              : NHEK      : Precision   : 0.773
+
+BENGI-N(retained)   : Average   : Precision   : 0.691 +- 0.0477
+BENGI-N(removed)    : Average   : Precision   : 0.73 +- 0.0451
+CBMF-N              : Average   : Precision   : 0.69 +- 0.0521
+CBGS-N              : Average   : Precision   : 0.69 +- 0.0467
+
+predictor: TransEPI
+pos_label: BENGI-P
+test_label: retainedCommonTest-N
+BENGI-N(retained)   : GM12878   : Balanced accuracy: 0.879
+BENGI-N(removed)    : GM12878   : Balanced accuracy: 0.861
+CBMF-N              : GM12878   : Balanced accuracy: 0.895
+CBGS-N              : GM12878   : Balanced accuracy: 0.899
+BENGI-N(retained)   : HeLa-S3   : Balanced accuracy: 0.774
+BENGI-N(removed)    : HeLa-S3   : Balanced accuracy: 0.757
+CBMF-N              : HeLa-S3   : Balanced accuracy: 0.811
+CBGS-N              : HeLa-S3   : Balanced accuracy: 0.812
+BENGI-N(retained)   : HMEC      : Balanced accuracy: 0.822
+BENGI-N(removed)    : HMEC      : Balanced accuracy: 0.832
+CBMF-N              : HMEC      : Balanced accuracy: 0.869
+CBGS-N              : HMEC      : Balanced accuracy: 0.861
+BENGI-N(retained)   : IMR90     : Balanced accuracy: 0.735
+BENGI-N(removed)    : IMR90     : Balanced accuracy: 0.797
+CBMF-N              : IMR90     : Balanced accuracy: 0.791
+CBGS-N              : IMR90     : Balanced accuracy: 0.795
+BENGI-N(retained)   : K562      : Balanced accuracy: 0.591
+BENGI-N(removed)    : K562      : Balanced accuracy: 0.579
+CBMF-N              : K562      : Balanced accuracy: 0.643
+CBGS-N              : K562      : Balanced accuracy: 0.625
+BENGI-N(retained)   : NHEK      : Balanced accuracy: 0.64
+BENGI-N(removed)    : NHEK      : Balanced accuracy: 0.669
+CBMF-N              : NHEK      : Balanced accuracy: 0.729
+CBGS-N              : NHEK      : Balanced accuracy: 0.702
+
+BENGI-N(retained)   : Average   : Balanced accuracy: 0.74 +- 0.0406
+BENGI-N(removed)    : Average   : Balanced accuracy: 0.749 +- 0.0397
+CBMF-N              : Average   : Balanced accuracy: 0.79 +- 0.0346
+CBGS-N              : Average   : Balanced accuracy: 0.782 +- 0.0381
+
+BENGI-N(retained)   : GM12878   : Specificity : 0.93
+BENGI-N(removed)    : GM12878   : Specificity : 0.954
+CBMF-N              : GM12878   : Specificity : 0.902
+CBGS-N              : GM12878   : Specificity : 0.913
+BENGI-N(retained)   : HeLa-S3   : Specificity : 0.837
+BENGI-N(removed)    : HeLa-S3   : Specificity : 0.879
+CBMF-N              : HeLa-S3   : Specificity : 0.812
+CBGS-N              : HeLa-S3   : Specificity : 0.814
+BENGI-N(retained)   : HMEC      : Specificity : 0.852
+BENGI-N(removed)    : HMEC      : Specificity : 0.887
+CBMF-N              : HMEC      : Specificity : 0.819
+CBGS-N              : HMEC      : Specificity : 0.82
+BENGI-N(retained)   : IMR90     : Specificity : 0.814
+BENGI-N(removed)    : IMR90     : Specificity : 0.826
+CBMF-N              : IMR90     : Specificity : 0.763
+CBGS-N              : IMR90     : Specificity : 0.754
+BENGI-N(retained)   : K562      : Specificity : 0.806
+BENGI-N(removed)    : K562      : Specificity : 0.853
+CBMF-N              : K562      : Specificity : 0.794
+CBGS-N              : K562      : Specificity : 0.831
+BENGI-N(retained)   : NHEK      : Specificity : 0.797
+BENGI-N(removed)    : NHEK      : Specificity : 0.847
+CBMF-N              : NHEK      : Specificity : 0.809
+CBGS-N              : NHEK      : Specificity : 0.768
+
+BENGI-N(retained)   : Average   : Specificity : 0.84 +- 0.0182
+BENGI-N(removed)    : Average   : Specificity : 0.874 +- 0.0168
+CBMF-N              : Average   : Specificity : 0.816 +- 0.0172
+CBGS-N              : Average   : Specificity : 0.817 +- 0.021
+
+BENGI-N(retained)   : GM12878   : Recall      : 0.828
+BENGI-N(removed)    : GM12878   : Recall      : 0.768
+CBMF-N              : GM12878   : Recall      : 0.888
+CBGS-N              : GM12878   : Recall      : 0.885
+BENGI-N(retained)   : HeLa-S3   : Recall      : 0.712
+BENGI-N(removed)    : HeLa-S3   : Recall      : 0.635
+CBMF-N              : HeLa-S3   : Recall      : 0.811
+CBGS-N              : HeLa-S3   : Recall      : 0.811
+BENGI-N(retained)   : HMEC      : Recall      : 0.793
+BENGI-N(removed)    : HMEC      : Recall      : 0.776
+CBMF-N              : HMEC      : Recall      : 0.919
+CBGS-N              : HMEC      : Recall      : 0.902
+BENGI-N(retained)   : IMR90     : Recall      : 0.656
+BENGI-N(removed)    : IMR90     : Recall      : 0.767
+CBMF-N              : IMR90     : Recall      : 0.819
+CBGS-N              : IMR90     : Recall      : 0.837
+BENGI-N(retained)   : K562      : Recall      : 0.375
+BENGI-N(removed)    : K562      : Recall      : 0.306
+CBMF-N              : K562      : Recall      : 0.491
+CBGS-N              : K562      : Recall      : 0.418
+BENGI-N(retained)   : NHEK      : Recall      : 0.483
+BENGI-N(removed)    : NHEK      : Recall      : 0.492
+CBMF-N              : NHEK      : Recall      : 0.648
+CBGS-N              : NHEK      : Recall      : 0.636
+
+BENGI-N(retained)   : Average   : Recall      : 0.641 +- 0.0663
+BENGI-N(removed)    : Average   : Recall      : 0.624 +- 0.0713
+CBMF-N              : Average   : Recall      : 0.763 +- 0.0607
+CBGS-N              : Average   : Recall      : 0.748 +- 0.0699
+
+BENGI-N(retained)   : GM12878   : AUC         : 0.954
+BENGI-N(removed)    : GM12878   : AUC         : 0.962
+CBMF-N              : GM12878   : AUC         : 0.96
+CBGS-N              : GM12878   : AUC         : 0.963
+BENGI-N(retained)   : HeLa-S3   : AUC         : 0.867
+BENGI-N(removed)    : HeLa-S3   : AUC         : 0.886
+CBMF-N              : HeLa-S3   : AUC         : 0.897
+CBGS-N              : HeLa-S3   : AUC         : 0.893
+BENGI-N(retained)   : HMEC      : AUC         : 0.896
+BENGI-N(removed)    : HMEC      : AUC         : 0.919
+CBMF-N              : HMEC      : AUC         : 0.927
+CBGS-N              : HMEC      : AUC         : 0.923
+BENGI-N(retained)   : IMR90     : AUC         : 0.853
+BENGI-N(removed)    : IMR90     : AUC         : 0.874
+CBMF-N              : IMR90     : AUC         : 0.852
+CBGS-N              : IMR90     : AUC         : 0.857
+BENGI-N(retained)   : K562      : AUC         : 0.665
+BENGI-N(removed)    : K562      : AUC         : 0.721
+CBMF-N              : K562      : AUC         : 0.739
+CBGS-N              : K562      : AUC         : 0.731
+BENGI-N(retained)   : NHEK      : AUC         : 0.724
+BENGI-N(removed)    : NHEK      : AUC         : 0.75
+CBMF-N              : NHEK      : AUC         : 0.833
+CBGS-N              : NHEK      : AUC         : 0.823
+
+BENGI-N(retained)   : Average   : AUC         : 0.826 +- 0.0408
+BENGI-N(removed)    : Average   : AUC         : 0.852 +- 0.0357
+CBMF-N              : Average   : AUC         : 0.868 +- 0.0293
+CBGS-N              : Average   : AUC         : 0.865 +- 0.0305
+
+BENGI-N(retained)   : GM12878   : AUPR        : 0.714
+BENGI-N(removed)    : GM12878   : AUPR        : 0.733
+CBMF-N              : GM12878   : AUPR        : 0.696
+CBGS-N              : GM12878   : AUPR        : 0.715
+BENGI-N(retained)   : HeLa-S3   : AUPR        : 0.672
+BENGI-N(removed)    : HeLa-S3   : AUPR        : 0.681
+CBMF-N              : HeLa-S3   : AUPR        : 0.701
+CBGS-N              : HeLa-S3   : AUPR        : 0.684
+BENGI-N(retained)   : HMEC      : AUPR        : 0.858
+BENGI-N(removed)    : HMEC      : AUPR        : 0.876
+CBMF-N              : HMEC      : AUPR        : 0.879
+CBGS-N              : HMEC      : AUPR        : 0.881
+BENGI-N(retained)   : IMR90     : AUPR        : 0.88
+BENGI-N(removed)    : IMR90     : AUPR        : 0.898
+CBMF-N              : IMR90     : AUPR        : 0.856
+CBGS-N              : IMR90     : AUPR        : 0.853
+BENGI-N(retained)   : K562      : AUPR        : 0.545
+BENGI-N(removed)    : K562      : AUPR        : 0.569
+CBMF-N              : K562      : AUPR        : 0.562
+CBGS-N              : K562      : AUPR        : 0.559
+BENGI-N(retained)   : NHEK      : AUPR        : 0.725
+BENGI-N(removed)    : NHEK      : AUPR        : 0.749
+CBMF-N              : NHEK      : AUPR        : 0.767
+CBGS-N              : NHEK      : AUPR        : 0.766
+
+BENGI-N(retained)   : Average   : AUPR        : 0.732 +- 0.0462
+BENGI-N(removed)    : Average   : AUPR        : 0.751 +- 0.0458
+CBMF-N              : Average   : AUPR        : 0.744 +- 0.0436
+CBGS-N              : Average   : AUPR        : 0.743 +- 0.044
+
+BENGI-N(retained)   : GM12878   : MCC         : 0.635
+BENGI-N(removed)    : GM12878   : MCC         : 0.664
+CBMF-N              : GM12878   : MCC         : 0.611
+CBGS-N              : GM12878   : MCC         : 0.634
+BENGI-N(retained)   : HeLa-S3   : MCC         : 0.528
+BENGI-N(removed)    : HeLa-S3   : MCC         : 0.522
+CBMF-N              : HeLa-S3   : MCC         : 0.579
+CBGS-N              : HeLa-S3   : MCC         : 0.583
+BENGI-N(retained)   : HMEC      : MCC         : 0.645
+BENGI-N(removed)    : HMEC      : MCC         : 0.668
+CBMF-N              : HMEC      : MCC         : 0.736
+CBGS-N              : HMEC      : MCC         : 0.721
+BENGI-N(retained)   : IMR90     : MCC         : 0.479
+BENGI-N(removed)    : IMR90     : MCC         : 0.595
+CBMF-N              : IMR90     : MCC         : 0.59
+CBGS-N              : IMR90     : MCC         : 0.604
+BENGI-N(retained)   : K562      : MCC         : 0.199
+BENGI-N(removed)    : K562      : MCC         : 0.188
+CBMF-N              : K562      : MCC         : 0.296
+CBGS-N              : K562      : MCC         : 0.269
+BENGI-N(retained)   : NHEK      : MCC         : 0.307
+BENGI-N(removed)    : NHEK      : MCC         : 0.366
+CBMF-N              : NHEK      : MCC         : 0.471
+CBGS-N              : NHEK      : MCC         : 0.416
+
+BENGI-N(retained)   : Average   : MCC         : 0.465 +- 0.0669
+BENGI-N(removed)    : Average   : MCC         : 0.5 +- 0.0706
+CBMF-N              : Average   : MCC         : 0.547 +- 0.0556
+CBGS-N              : Average   : MCC         : 0.538 +- 0.0615
+
+BENGI-N(retained)   : GM12878   : F1          : 0.661
+BENGI-N(removed)    : GM12878   : F1          : 0.695
+CBMF-N              : GM12878   : F1          : 0.627
+CBGS-N              : GM12878   : F1          : 0.652
+BENGI-N(retained)   : HeLa-S3   : F1          : 0.666
+BENGI-N(removed)    : HeLa-S3   : F1          : 0.65
+CBMF-N              : HeLa-S3   : F1          : 0.701
+CBGS-N              : HeLa-S3   : F1          : 0.705
+BENGI-N(retained)   : HMEC      : F1          : 0.804
+BENGI-N(removed)    : HMEC      : F1          : 0.811
+CBMF-N              : HMEC      : F1          : 0.86
+CBGS-N              : HMEC      : F1          : 0.852
+BENGI-N(retained)   : IMR90     : F1          : 0.729
+BENGI-N(removed)    : IMR90     : F1          : 0.807
+CBMF-N              : IMR90     : F1          : 0.816
+CBGS-N              : IMR90     : F1          : 0.824
+BENGI-N(retained)   : K562      : F1          : 0.442
+BENGI-N(removed)    : K562      : F1          : 0.393
+CBMF-N              : K562      : F1          : 0.535
+CBGS-N              : K562      : F1          : 0.488
+BENGI-N(retained)   : NHEK      : F1          : 0.569
+BENGI-N(removed)    : NHEK      : F1          : 0.596
+CBMF-N              : NHEK      : F1          : 0.704
+CBGS-N              : NHEK      : F1          : 0.685
+
+BENGI-N(retained)   : Average   : F1          : 0.645 +- 0.0471
+BENGI-N(removed)    : Average   : F1          : 0.659 +- 0.0579
+CBMF-N              : Average   : F1          : 0.707 +- 0.0445
+CBGS-N              : Average   : F1          : 0.701 +- 0.0488
+
+BENGI-N(retained)   : GM12878   : Precision   : 0.552
+BENGI-N(removed)    : GM12878   : Precision   : 0.635
+CBMF-N              : GM12878   : Precision   : 0.486
+CBGS-N              : GM12878   : Precision   : 0.517
+BENGI-N(retained)   : HeLa-S3   : Precision   : 0.626
+BENGI-N(removed)    : HeLa-S3   : Precision   : 0.67
+CBMF-N              : HeLa-S3   : Precision   : 0.62
+CBGS-N              : HeLa-S3   : Precision   : 0.624
+BENGI-N(retained)   : HMEC      : Precision   : 0.817
+BENGI-N(removed)    : HMEC      : Precision   : 0.85
+CBMF-N              : HMEC      : Precision   : 0.809
+CBGS-N              : HMEC      : Precision   : 0.808
+BENGI-N(retained)   : IMR90     : Precision   : 0.833
+BENGI-N(removed)    : IMR90     : Precision   : 0.856
+CBMF-N              : IMR90     : Precision   : 0.817
+CBGS-N              : IMR90     : Precision   : 0.817
+BENGI-N(retained)   : K562      : Precision   : 0.557
+BENGI-N(removed)    : K562      : Precision   : 0.57
+CBMF-N              : K562      : Precision   : 0.601
+CBGS-N              : K562      : Precision   : 0.604
+BENGI-N(retained)   : NHEK      : Precision   : 0.759
+BENGI-N(removed)    : NHEK      : Precision   : 0.799
+CBMF-N              : NHEK      : Precision   : 0.804
+CBGS-N              : NHEK      : Precision   : 0.773
+
+BENGI-N(retained)   : Average   : Precision   : 0.691 +- 0.0477
+BENGI-N(removed)    : Average   : Precision   : 0.73 +- 0.0451
+CBMF-N              : Average   : Precision   : 0.69 +- 0.0521
+CBGS-N              : Average   : Precision   : 0.69 +- 0.0467
+
+predictor: TargetFinder
+pos_label: BENGI-P
+test_label: removedCommonTest-N
+BENGI-N(retained)   : GM12878   : Balanced accuracy: 0.78
+BENGI-N(removed)    : GM12878   : Balanced accuracy: 0.774
+CBMF-N              : GM12878   : Balanced accuracy: 0.912
+CBGS-N              : GM12878   : Balanced accuracy: 0.997
+BENGI-N(retained)   : HeLa-S3   : Balanced accuracy: 0.728
+BENGI-N(removed)    : HeLa-S3   : Balanced accuracy: 0.593
+CBMF-N              : HeLa-S3   : Balanced accuracy: 0.747
+CBGS-N              : HeLa-S3   : Balanced accuracy: 0.995
+BENGI-N(retained)   : IMR90     : Balanced accuracy: 0.639
+BENGI-N(removed)    : IMR90     : Balanced accuracy: 0.51
+CBMF-N              : IMR90     : Balanced accuracy: 0.51
+CBGS-N              : IMR90     : Balanced accuracy: 0.913
+BENGI-N(retained)   : K562      : Balanced accuracy: 0.549
+BENGI-N(removed)    : K562      : Balanced accuracy: 0.527
+CBMF-N              : K562      : Balanced accuracy: 0.77
+CBGS-N              : K562      : Balanced accuracy: 0.998
+BENGI-N(retained)   : NHEK      : Balanced accuracy: 0.687
+BENGI-N(removed)    : NHEK      : Balanced accuracy: 0.504
+CBMF-N              : NHEK      : Balanced accuracy: 0.509
+CBGS-N              : NHEK      : Balanced accuracy: 0.919
+
+BENGI-N(retained)   : Average   : Balanced accuracy: 0.677 +- 0.0353
+BENGI-N(removed)    : Average   : Balanced accuracy: 0.582 +- 0.0453
+CBMF-N              : Average   : Balanced accuracy: 0.69 +- 0.0705
+CBGS-N              : Average   : Balanced accuracy: 0.964 +- 0.0178
+
+BENGI-N(retained)   : GM12878   : Specificity : 0.794
+BENGI-N(removed)    : GM12878   : Specificity : 0.771
+CBMF-N              : GM12878   : Specificity : 0.951
+CBGS-N              : GM12878   : Specificity : 0.995
+BENGI-N(retained)   : HeLa-S3   : Specificity : 0.68
+BENGI-N(removed)    : HeLa-S3   : Specificity : 0.259
+CBMF-N              : HeLa-S3   : Specificity : 0.498
+CBGS-N              : HeLa-S3   : Specificity : 0.99
+BENGI-N(retained)   : IMR90     : Specificity : 0.71
+BENGI-N(removed)    : IMR90     : Specificity : 0.0309
+CBMF-N              : IMR90     : Specificity : 0.0229
+CBGS-N              : IMR90     : Specificity : 0.826
+BENGI-N(retained)   : K562      : Specificity : 0.648
+BENGI-N(removed)    : K562      : Specificity : 0.534
+CBMF-N              : K562      : Specificity : 0.846
+CBGS-N              : K562      : Specificity : 0.999
+BENGI-N(retained)   : NHEK      : Specificity : 0.734
+BENGI-N(removed)    : NHEK      : Specificity : 0.018
+CBMF-N              : NHEK      : Specificity : 0.018
+CBGS-N              : NHEK      : Specificity : 0.838
+
+BENGI-N(retained)   : Average   : Specificity : 0.713 +- 0.0223
+BENGI-N(removed)    : Average   : Specificity : 0.323 +- 0.131
+CBMF-N              : Average   : Specificity : 0.467 +- 0.176
+CBGS-N              : Average   : Specificity : 0.929 +- 0.0357
+
+BENGI-N(retained)   : GM12878   : Recall      : 0.766
+BENGI-N(removed)    : GM12878   : Recall      : 0.778
+CBMF-N              : GM12878   : Recall      : 0.874
+CBGS-N              : GM12878   : Recall      : 1.0
+BENGI-N(retained)   : HeLa-S3   : Recall      : 0.776
+BENGI-N(removed)    : HeLa-S3   : Recall      : 0.927
+CBMF-N              : HeLa-S3   : Recall      : 0.996
+CBGS-N              : HeLa-S3   : Recall      : 1.0
+BENGI-N(retained)   : IMR90     : Recall      : 0.568
+BENGI-N(removed)    : IMR90     : Recall      : 0.989
+CBMF-N              : IMR90     : Recall      : 0.997
+CBGS-N              : IMR90     : Recall      : 1.0
+BENGI-N(retained)   : K562      : Recall      : 0.45
+BENGI-N(removed)    : K562      : Recall      : 0.519
+CBMF-N              : K562      : Recall      : 0.694
+CBGS-N              : K562      : Recall      : 0.998
+BENGI-N(retained)   : NHEK      : Recall      : 0.64
+BENGI-N(removed)    : NHEK      : Recall      : 0.99
+CBMF-N              : NHEK      : Recall      : 1.0
+CBGS-N              : NHEK      : Recall      : 1.0
+
+BENGI-N(retained)   : Average   : Recall      : 0.64 +- 0.055
+BENGI-N(removed)    : Average   : Recall      : 0.841 +- 0.0797
+CBMF-N              : Average   : Recall      : 0.912 +- 0.0533
+CBGS-N              : Average   : Recall      : 0.999 +- 0.000343
+
+BENGI-N(retained)   : GM12878   : AUC         : 0.856
+BENGI-N(removed)    : GM12878   : AUC         : 0.847
+CBMF-N              : GM12878   : AUC         : 0.974
+CBGS-N              : GM12878   : AUC         : 1.0
+BENGI-N(retained)   : HeLa-S3   : AUC         : 0.8
+BENGI-N(removed)    : HeLa-S3   : AUC         : 0.712
+CBMF-N              : HeLa-S3   : AUC         : 0.938
+CBGS-N              : HeLa-S3   : AUC         : 0.998
+BENGI-N(retained)   : IMR90     : AUC         : 0.765
+BENGI-N(removed)    : IMR90     : AUC         : 0.569
+CBMF-N              : IMR90     : AUC         : 0.578
+CBGS-N              : IMR90     : AUC         : 0.999
+BENGI-N(retained)   : K562      : AUC         : 0.582
+BENGI-N(removed)    : K562      : AUC         : 0.529
+CBMF-N              : K562      : AUC         : 0.883
+CBGS-N              : K562      : AUC         : 0.999
+BENGI-N(retained)   : NHEK      : AUC         : 0.752
+BENGI-N(removed)    : NHEK      : AUC         : 0.439
+CBMF-N              : NHEK      : AUC         : 0.542
+CBGS-N              : NHEK      : AUC         : 0.99
+
+BENGI-N(retained)   : Average   : AUC         : 0.751 +- 0.0412
+BENGI-N(removed)    : Average   : AUC         : 0.619 +- 0.0644
+CBMF-N              : Average   : AUC         : 0.783 +- 0.0826
+CBGS-N              : Average   : AUC         : 0.997 +- 0.00158
+
+BENGI-N(retained)   : GM12878   : AUPR        : 0.466
+BENGI-N(removed)    : GM12878   : AUPR        : 0.397
+CBMF-N              : GM12878   : AUPR        : 0.806
+CBGS-N              : GM12878   : AUPR        : 0.995
+BENGI-N(retained)   : HeLa-S3   : AUPR        : 0.599
+BENGI-N(removed)    : HeLa-S3   : AUPR        : 0.484
+CBMF-N              : HeLa-S3   : AUPR        : 0.831
+CBGS-N              : HeLa-S3   : AUPR        : 0.992
+BENGI-N(retained)   : IMR90     : AUPR        : 0.786
+BENGI-N(removed)    : IMR90     : AUPR        : 0.582
+CBMF-N              : IMR90     : AUPR        : 0.603
+CBGS-N              : IMR90     : AUPR        : 0.999
+BENGI-N(retained)   : K562      : AUPR        : 0.473
+BENGI-N(removed)    : K562      : AUPR        : 0.397
+CBMF-N              : K562      : AUPR        : 0.8
+CBGS-N              : K562      : AUPR        : 0.999
+BENGI-N(retained)   : NHEK      : AUPR        : 0.747
+BENGI-N(removed)    : NHEK      : AUPR        : 0.484
+CBMF-N              : NHEK      : AUPR        : 0.554
+CBGS-N              : NHEK      : AUPR        : 0.983
+
+BENGI-N(retained)   : Average   : AUPR        : 0.614 +- 0.0598
+BENGI-N(removed)    : Average   : AUPR        : 0.469 +- 0.0307
+CBMF-N              : Average   : AUPR        : 0.719 +- 0.052
+CBGS-N              : Average   : AUPR        : 0.994 +- 0.0026
+
+BENGI-N(retained)   : GM12878   : MCC         : 0.42
+BENGI-N(removed)    : GM12878   : MCC         : 0.367
+CBMF-N              : GM12878   : MCC         : 0.724
+CBGS-N              : GM12878   : MCC         : 0.975
+BENGI-N(retained)   : HeLa-S3   : MCC         : 0.421
+BENGI-N(removed)    : HeLa-S3   : MCC         : 0.2
+CBMF-N              : HeLa-S3   : MCC         : 0.467
+CBGS-N              : HeLa-S3   : MCC         : 0.983
+BENGI-N(retained)   : IMR90     : MCC         : 0.314
+BENGI-N(removed)    : IMR90     : MCC         : 0.0756
+CBMF-N              : IMR90     : MCC         : 0.0844
+CBGS-N              : IMR90     : MCC         : 0.85
+BENGI-N(retained)   : K562      : MCC         : 0.109
+BENGI-N(removed)    : K562      : MCC         : 0.0505
+CBMF-N              : K562      : MCC         : 0.558
+CBGS-N              : K562      : MCC         : 0.997
+BENGI-N(retained)   : NHEK      : MCC         : 0.375
+BENGI-N(removed)    : NHEK      : MCC         : 0.0197
+CBMF-N              : NHEK      : MCC         : 0.0732
+CBGS-N              : NHEK      : MCC         : 0.855
+
+BENGI-N(retained)   : Average   : MCC         : 0.327 +- 0.052
+BENGI-N(removed)    : Average   : MCC         : 0.143 +- 0.0572
+CBMF-N              : Average   : MCC         : 0.381 +- 0.116
+CBGS-N              : Average   : MCC         : 0.932 +- 0.0292
+
+BENGI-N(retained)   : GM12878   : F1          : 0.46
+BENGI-N(removed)    : GM12878   : F1          : 0.404
+CBMF-N              : GM12878   : F1          : 0.744
+CBGS-N              : GM12878   : F1          : 0.977
+BENGI-N(retained)   : HeLa-S3   : F1          : 0.595
+BENGI-N(removed)    : HeLa-S3   : F1          : 0.481
+CBMF-N              : HeLa-S3   : F1          : 0.604
+CBGS-N              : HeLa-S3   : F1          : 0.988
+BENGI-N(retained)   : IMR90     : F1          : 0.584
+BENGI-N(removed)    : IMR90     : F1          : 0.711
+CBMF-N              : IMR90     : F1          : 0.713
+CBGS-N              : IMR90     : F1          : 0.933
+BENGI-N(retained)   : K562      : F1          : 0.455
+BENGI-N(removed)    : K562      : F1          : 0.467
+CBMF-N              : K562      : F1          : 0.718
+CBGS-N              : K562      : F1          : 0.998
+BENGI-N(retained)   : NHEK      : F1          : 0.68
+BENGI-N(removed)    : NHEK      : F1          : 0.693
+CBMF-N              : NHEK      : F1          : 0.698
+CBGS-N              : NHEK      : F1          : 0.931
+
+BENGI-N(retained)   : Average   : F1          : 0.555 +- 0.0385
+BENGI-N(removed)    : Average   : F1          : 0.551 +- 0.0564
+CBMF-N              : Average   : F1          : 0.695 +- 0.0215
+CBGS-N              : Average   : F1          : 0.965 +- 0.0125
+
+BENGI-N(retained)   : GM12878   : Precision   : 0.354
+BENGI-N(removed)    : GM12878   : Precision   : 0.277
+CBMF-N              : GM12878   : Precision   : 0.65
+CBGS-N              : GM12878   : Precision   : 0.958
+BENGI-N(retained)   : HeLa-S3   : Precision   : 0.504
+BENGI-N(removed)    : HeLa-S3   : Precision   : 0.327
+CBMF-N              : HeLa-S3   : Precision   : 0.446
+CBGS-N              : HeLa-S3   : Precision   : 0.977
+BENGI-N(retained)   : IMR90     : Precision   : 0.778
+BENGI-N(removed)    : IMR90     : Precision   : 0.556
+CBMF-N              : IMR90     : Precision   : 0.556
+CBGS-N              : IMR90     : Precision   : 0.875
+BENGI-N(retained)   : K562      : Precision   : 0.487
+BENGI-N(removed)    : K562      : Precision   : 0.428
+CBMF-N              : K562      : Precision   : 0.754
+CBGS-N              : K562      : Precision   : 0.998
+BENGI-N(retained)   : NHEK      : Precision   : 0.731
+BENGI-N(removed)    : NHEK      : Precision   : 0.534
+CBMF-N              : NHEK      : Precision   : 0.536
+CBGS-N              : NHEK      : Precision   : 0.874
+
+BENGI-N(retained)   : Average   : Precision   : 0.571 +- 0.0713
+BENGI-N(removed)    : Average   : Precision   : 0.424 +- 0.0493
+CBMF-N              : Average   : Precision   : 0.588 +- 0.047
+CBGS-N              : Average   : Precision   : 0.936 +- 0.0234
+
+predictor: TargetFinder
+pos_label: BENGI-P
+test_label: retainedCommonTest-N
+BENGI-N(retained)   : GM12878   : Balanced accuracy: 0.78
+BENGI-N(removed)    : GM12878   : Balanced accuracy: 0.774
+CBMF-N              : GM12878   : Balanced accuracy: 0.912
+CBGS-N              : GM12878   : Balanced accuracy: 0.997
+BENGI-N(retained)   : HeLa-S3   : Balanced accuracy: 0.728
+BENGI-N(removed)    : HeLa-S3   : Balanced accuracy: 0.593
+CBMF-N              : HeLa-S3   : Balanced accuracy: 0.747
+CBGS-N              : HeLa-S3   : Balanced accuracy: 0.995
+BENGI-N(retained)   : IMR90     : Balanced accuracy: 0.639
+BENGI-N(removed)    : IMR90     : Balanced accuracy: 0.51
+CBMF-N              : IMR90     : Balanced accuracy: 0.51
+CBGS-N              : IMR90     : Balanced accuracy: 0.913
+BENGI-N(retained)   : K562      : Balanced accuracy: 0.549
+BENGI-N(removed)    : K562      : Balanced accuracy: 0.527
+CBMF-N              : K562      : Balanced accuracy: 0.77
+CBGS-N              : K562      : Balanced accuracy: 0.998
+BENGI-N(retained)   : NHEK      : Balanced accuracy: 0.687
+BENGI-N(removed)    : NHEK      : Balanced accuracy: 0.504
+CBMF-N              : NHEK      : Balanced accuracy: 0.509
+CBGS-N              : NHEK      : Balanced accuracy: 0.919
+
+BENGI-N(retained)   : Average   : Balanced accuracy: 0.677 +- 0.0353
+BENGI-N(removed)    : Average   : Balanced accuracy: 0.582 +- 0.0453
+CBMF-N              : Average   : Balanced accuracy: 0.69 +- 0.0705
+CBGS-N              : Average   : Balanced accuracy: 0.964 +- 0.0178
+
+BENGI-N(retained)   : GM12878   : Specificity : 0.794
+BENGI-N(removed)    : GM12878   : Specificity : 0.771
+CBMF-N              : GM12878   : Specificity : 0.951
+CBGS-N              : GM12878   : Specificity : 0.995
+BENGI-N(retained)   : HeLa-S3   : Specificity : 0.68
+BENGI-N(removed)    : HeLa-S3   : Specificity : 0.259
+CBMF-N              : HeLa-S3   : Specificity : 0.498
+CBGS-N              : HeLa-S3   : Specificity : 0.99
+BENGI-N(retained)   : IMR90     : Specificity : 0.71
+BENGI-N(removed)    : IMR90     : Specificity : 0.0309
+CBMF-N              : IMR90     : Specificity : 0.0229
+CBGS-N              : IMR90     : Specificity : 0.826
+BENGI-N(retained)   : K562      : Specificity : 0.648
+BENGI-N(removed)    : K562      : Specificity : 0.534
+CBMF-N              : K562      : Specificity : 0.846
+CBGS-N              : K562      : Specificity : 0.999
+BENGI-N(retained)   : NHEK      : Specificity : 0.734
+BENGI-N(removed)    : NHEK      : Specificity : 0.018
+CBMF-N              : NHEK      : Specificity : 0.018
+CBGS-N              : NHEK      : Specificity : 0.838
+
+BENGI-N(retained)   : Average   : Specificity : 0.713 +- 0.0223
+BENGI-N(removed)    : Average   : Specificity : 0.323 +- 0.131
+CBMF-N              : Average   : Specificity : 0.467 +- 0.176
+CBGS-N              : Average   : Specificity : 0.929 +- 0.0357
+
+BENGI-N(retained)   : GM12878   : Recall      : 0.766
+BENGI-N(removed)    : GM12878   : Recall      : 0.778
+CBMF-N              : GM12878   : Recall      : 0.874
+CBGS-N              : GM12878   : Recall      : 1.0
+BENGI-N(retained)   : HeLa-S3   : Recall      : 0.776
+BENGI-N(removed)    : HeLa-S3   : Recall      : 0.927
+CBMF-N              : HeLa-S3   : Recall      : 0.996
+CBGS-N              : HeLa-S3   : Recall      : 1.0
+BENGI-N(retained)   : IMR90     : Recall      : 0.568
+BENGI-N(removed)    : IMR90     : Recall      : 0.989
+CBMF-N              : IMR90     : Recall      : 0.997
+CBGS-N              : IMR90     : Recall      : 1.0
+BENGI-N(retained)   : K562      : Recall      : 0.45
+BENGI-N(removed)    : K562      : Recall      : 0.519
+CBMF-N              : K562      : Recall      : 0.694
+CBGS-N              : K562      : Recall      : 0.998
+BENGI-N(retained)   : NHEK      : Recall      : 0.64
+BENGI-N(removed)    : NHEK      : Recall      : 0.99
+CBMF-N              : NHEK      : Recall      : 1.0
+CBGS-N              : NHEK      : Recall      : 1.0
+
+BENGI-N(retained)   : Average   : Recall      : 0.64 +- 0.055
+BENGI-N(removed)    : Average   : Recall      : 0.841 +- 0.0797
+CBMF-N              : Average   : Recall      : 0.912 +- 0.0533
+CBGS-N              : Average   : Recall      : 0.999 +- 0.000343
+
+BENGI-N(retained)   : GM12878   : AUC         : 0.856
+BENGI-N(removed)    : GM12878   : AUC         : 0.847
+CBMF-N              : GM12878   : AUC         : 0.974
+CBGS-N              : GM12878   : AUC         : 1.0
+BENGI-N(retained)   : HeLa-S3   : AUC         : 0.8
+BENGI-N(removed)    : HeLa-S3   : AUC         : 0.712
+CBMF-N              : HeLa-S3   : AUC         : 0.938
+CBGS-N              : HeLa-S3   : AUC         : 0.998
+BENGI-N(retained)   : IMR90     : AUC         : 0.765
+BENGI-N(removed)    : IMR90     : AUC         : 0.569
+CBMF-N              : IMR90     : AUC         : 0.578
+CBGS-N              : IMR90     : AUC         : 0.999
+BENGI-N(retained)   : K562      : AUC         : 0.582
+BENGI-N(removed)    : K562      : AUC         : 0.529
+CBMF-N              : K562      : AUC         : 0.883
+CBGS-N              : K562      : AUC         : 0.999
+BENGI-N(retained)   : NHEK      : AUC         : 0.752
+BENGI-N(removed)    : NHEK      : AUC         : 0.439
+CBMF-N              : NHEK      : AUC         : 0.542
+CBGS-N              : NHEK      : AUC         : 0.99
+
+BENGI-N(retained)   : Average   : AUC         : 0.751 +- 0.0412
+BENGI-N(removed)    : Average   : AUC         : 0.619 +- 0.0644
+CBMF-N              : Average   : AUC         : 0.783 +- 0.0826
+CBGS-N              : Average   : AUC         : 0.997 +- 0.00158
+
+BENGI-N(retained)   : GM12878   : AUPR        : 0.466
+BENGI-N(removed)    : GM12878   : AUPR        : 0.397
+CBMF-N              : GM12878   : AUPR        : 0.806
+CBGS-N              : GM12878   : AUPR        : 0.995
+BENGI-N(retained)   : HeLa-S3   : AUPR        : 0.599
+BENGI-N(removed)    : HeLa-S3   : AUPR        : 0.484
+CBMF-N              : HeLa-S3   : AUPR        : 0.831
+CBGS-N              : HeLa-S3   : AUPR        : 0.992
+BENGI-N(retained)   : IMR90     : AUPR        : 0.786
+BENGI-N(removed)    : IMR90     : AUPR        : 0.582
+CBMF-N              : IMR90     : AUPR        : 0.603
+CBGS-N              : IMR90     : AUPR        : 0.999
+BENGI-N(retained)   : K562      : AUPR        : 0.473
+BENGI-N(removed)    : K562      : AUPR        : 0.397
+CBMF-N              : K562      : AUPR        : 0.8
+CBGS-N              : K562      : AUPR        : 0.999
+BENGI-N(retained)   : NHEK      : AUPR        : 0.747
+BENGI-N(removed)    : NHEK      : AUPR        : 0.484
+CBMF-N              : NHEK      : AUPR        : 0.554
+CBGS-N              : NHEK      : AUPR        : 0.983
+
+BENGI-N(retained)   : Average   : AUPR        : 0.614 +- 0.0598
+BENGI-N(removed)    : Average   : AUPR        : 0.469 +- 0.0307
+CBMF-N              : Average   : AUPR        : 0.719 +- 0.052
+CBGS-N              : Average   : AUPR        : 0.994 +- 0.0026
+
+BENGI-N(retained)   : GM12878   : MCC         : 0.42
+BENGI-N(removed)    : GM12878   : MCC         : 0.367
+CBMF-N              : GM12878   : MCC         : 0.724
+CBGS-N              : GM12878   : MCC         : 0.975
+BENGI-N(retained)   : HeLa-S3   : MCC         : 0.421
+BENGI-N(removed)    : HeLa-S3   : MCC         : 0.2
+CBMF-N              : HeLa-S3   : MCC         : 0.467
+CBGS-N              : HeLa-S3   : MCC         : 0.983
+BENGI-N(retained)   : IMR90     : MCC         : 0.314
+BENGI-N(removed)    : IMR90     : MCC         : 0.0756
+CBMF-N              : IMR90     : MCC         : 0.0844
+CBGS-N              : IMR90     : MCC         : 0.85
+BENGI-N(retained)   : K562      : MCC         : 0.109
+BENGI-N(removed)    : K562      : MCC         : 0.0505
+CBMF-N              : K562      : MCC         : 0.558
+CBGS-N              : K562      : MCC         : 0.997
+BENGI-N(retained)   : NHEK      : MCC         : 0.375
+BENGI-N(removed)    : NHEK      : MCC         : 0.0197
+CBMF-N              : NHEK      : MCC         : 0.0732
+CBGS-N              : NHEK      : MCC         : 0.855
+
+BENGI-N(retained)   : Average   : MCC         : 0.327 +- 0.052
+BENGI-N(removed)    : Average   : MCC         : 0.143 +- 0.0572
+CBMF-N              : Average   : MCC         : 0.381 +- 0.116
+CBGS-N              : Average   : MCC         : 0.932 +- 0.0292
+
+BENGI-N(retained)   : GM12878   : F1          : 0.46
+BENGI-N(removed)    : GM12878   : F1          : 0.404
+CBMF-N              : GM12878   : F1          : 0.744
+CBGS-N              : GM12878   : F1          : 0.977
+BENGI-N(retained)   : HeLa-S3   : F1          : 0.595
+BENGI-N(removed)    : HeLa-S3   : F1          : 0.481
+CBMF-N              : HeLa-S3   : F1          : 0.604
+CBGS-N              : HeLa-S3   : F1          : 0.988
+BENGI-N(retained)   : IMR90     : F1          : 0.584
+BENGI-N(removed)    : IMR90     : F1          : 0.711
+CBMF-N              : IMR90     : F1          : 0.713
+CBGS-N              : IMR90     : F1          : 0.933
+BENGI-N(retained)   : K562      : F1          : 0.455
+BENGI-N(removed)    : K562      : F1          : 0.467
+CBMF-N              : K562      : F1          : 0.718
+CBGS-N              : K562      : F1          : 0.998
+BENGI-N(retained)   : NHEK      : F1          : 0.68
+BENGI-N(removed)    : NHEK      : F1          : 0.693
+CBMF-N              : NHEK      : F1          : 0.698
+CBGS-N              : NHEK      : F1          : 0.931
+
+BENGI-N(retained)   : Average   : F1          : 0.555 +- 0.0385
+BENGI-N(removed)    : Average   : F1          : 0.551 +- 0.0564
+CBMF-N              : Average   : F1          : 0.695 +- 0.0215
+CBGS-N              : Average   : F1          : 0.965 +- 0.0125
+
+BENGI-N(retained)   : GM12878   : Precision   : 0.354
+BENGI-N(removed)    : GM12878   : Precision   : 0.277
+CBMF-N              : GM12878   : Precision   : 0.65
+CBGS-N              : GM12878   : Precision   : 0.958
+BENGI-N(retained)   : HeLa-S3   : Precision   : 0.504
+BENGI-N(removed)    : HeLa-S3   : Precision   : 0.327
+CBMF-N              : HeLa-S3   : Precision   : 0.446
+CBGS-N              : HeLa-S3   : Precision   : 0.977
+BENGI-N(retained)   : IMR90     : Precision   : 0.778
+BENGI-N(removed)    : IMR90     : Precision   : 0.556
+CBMF-N              : IMR90     : Precision   : 0.556
+CBGS-N              : IMR90     : Precision   : 0.875
+BENGI-N(retained)   : K562      : Precision   : 0.487
+BENGI-N(removed)    : K562      : Precision   : 0.428
+CBMF-N              : K562      : Precision   : 0.754
+CBGS-N              : K562      : Precision   : 0.998
+BENGI-N(retained)   : NHEK      : Precision   : 0.731
+BENGI-N(removed)    : NHEK      : Precision   : 0.534
+CBMF-N              : NHEK      : Precision   : 0.536
+CBGS-N              : NHEK      : Precision   : 0.874
+
+BENGI-N(retained)   : Average   : Precision   : 0.571 +- 0.0713
+BENGI-N(removed)    : Average   : Precision   : 0.424 +- 0.0493
+CBMF-N              : Average   : Precision   : 0.588 +- 0.047
+CBGS-N              : Average   : Precision   : 0.936 +- 0.0234
+

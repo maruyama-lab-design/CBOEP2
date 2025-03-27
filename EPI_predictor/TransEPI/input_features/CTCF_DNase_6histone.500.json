@@ -1,0 +1,152 @@
+{
+    "H1": {
+        "CTCF": "narrowPeak_H1_CTCF.500bp.pt",
+        "DNase": "bigWig_H1_DNase.500bp.pt",
+        "H3K27ac": "bigWig_H1_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_H1_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_H1_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_H1_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_H1_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_H1_H3K9me3.500bp.pt"
+    },
+    "GM12878": {
+        "CTCF": "narrowPeak_GM12878_CTCF.500bp.pt",
+        "DNase": "bigWig_GM12878_DNase.500bp.pt",
+        "H3K27ac": "bigWig_GM12878_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_GM12878_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_GM12878_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_GM12878_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_GM12878_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_GM12878_H3K9me3.500bp.pt"
+    },
+    "HeLa": {
+        "CTCF": "narrowPeak_HeLa_CTCF.500bp.pt",
+        "DNase": "bigWig_HeLa-S3_DNase.500bp.pt",
+        "H3K27ac": "bigWig_HeLa-S3_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_HeLa-S3_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_HeLa-S3_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_HeLa-S3_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_HeLa-S3_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_HeLa-S3_H3K9me3.500bp.pt"
+    },
+    "IMR90": {
+        "CTCF": "narrowPeak_IMR90_CTCF.500bp.pt",
+        "DNase": "bigWig_IMR90_DNase.500bp.pt",
+        "H3K27ac": "bigWig_IMR90_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_IMR90_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_IMR90_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_IMR90_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_IMR90_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_IMR90_H3K9me3.500bp.pt"
+    },
+    "K562": {
+        "CTCF": "narrowPeak_K562_CTCF.500bp.pt",
+        "DNase": "bigWig_K562_DNase.500bp.pt",
+        "H3K27ac": "bigWig_K562_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_K562_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_K562_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_K562_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_K562_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_K562_H3K9me3.500bp.pt"
+    },
+    "HMEC": {
+        "CTCF": "narrowPeak_HMEC_CTCF.500bp.pt",
+        "DNase": "bigWig_HMEC_DNase.500bp.pt",
+        "H3K27ac": "bigWig_HMEC_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_HMEC_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_HMEC_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_HMEC_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_HMEC_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_HMEC_H3K9me3.500bp.pt"
+    },
+    "HUVEC": {
+        "CTCF": "narrowPeak_HUVEC_CTCF.500bp.pt",
+        "DNase": "bigWig_HUVEC_DNase.500bp.pt",
+        "H3K27ac": "bigWig_HUVEC_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_HUVEC_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_HUVEC_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_HUVEC_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_HUVEC_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_HUVEC_H3K9me3.500bp.pt"
+    },
+    "NHEK": {
+        "CTCF": "narrowPeak_NHEK_CTCF.500bp.pt",
+        "DNase": "bigWig_NHEK_DNase.500bp.pt",
+        "H3K27ac": "bigWig_NHEK_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_NHEK_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_NHEK_H3K36me3.500bp.pt",
+        "H3K4me1": "bigWig_NHEK_H3K4me1.500bp.pt",
+        "H3K4me3": "bigWig_NHEK_H3K4me3.500bp.pt",
+        "H3K9me3": "bigWig_NHEK_H3K9me3.500bp.pt"
+    },
+    "Fetal_Female_Brain": {
+        "CTCF":     "narrowPeak_neural_cell_H1_CTCF.500bp.pt",
+        "DNase":    "bigWig_fetal_female_brain_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_fetal_female_brain_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_fetal_female_brain_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_fetal_female_brain_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_fetal_female_brain_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_fetal_female_brain_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_fetal_female_brain_H3K9me3.500bp.pt"
+    },
+    "Fetal_Male_Brain": {
+        "CTCF":     "narrowPeak_neural_cell_H1_CTCF.500bp.pt",
+        "DNase":    "bigWig_fetal_male_brain_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_fetal_male_brain_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_fetal_male_brain_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_fetal_male_brain_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_fetal_male_brain_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_fetal_male_brain_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_fetal_male_brain_H3K9me3.500bp.pt"
+    },
+    "brain_30d": {
+        "CTCF":     "narrowPeak_brain_30d_CTCF.500bp.pt",
+        "DNase":    "bigWig_fetal_female_brain_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_fetal_female_brain_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_fetal_female_brain_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_fetal_female_brain_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_fetal_female_brain_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_fetal_female_brain_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_fetal_female_brain_H3K9me3.500bp.pt"
+    },
+    "brain_90d": {
+        "CTCF":     "narrowPeak_brain_90d_CTCF.500bp.pt",
+        "DNase":    "bigWig_fetal_female_brain_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_fetal_female_brain_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_fetal_female_brain_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_fetal_female_brain_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_fetal_female_brain_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_fetal_female_brain_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_fetal_female_brain_H3K9me3.500bp.pt"
+    },
+    "brain_180d": {
+        "CTCF":     "narrowPeak_brain_180d_CTCF.500bp.pt",
+        "DNase":    "bigWig_fetal_female_brain_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_fetal_female_brain_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_fetal_female_brain_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_fetal_female_brain_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_fetal_female_brain_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_fetal_female_brain_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_fetal_female_brain_H3K9me3.500bp.pt"
+    },
+    "H9NPC": {
+        "CTCF":     "narrowPeak_neural_progenitor_cell_H9_CTCF.500bp.pt",
+        "DNase":    "bigWig_H9NPC_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_H9NPC_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_H9NPC_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_H9NPC_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_H9NPC_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_H9NPC_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_H9NPC_H3K9me3.500bp.pt"
+    },
+    "H1NPC": {
+        "CTCF":     "narrowPeak_neural_progenitor_cell_H1_CTCF.500bp.pt",
+        "DNase":    "bigWig_H1NPC_DNase.500bp.pt",
+        "H3K27ac":  "bigWig_H1NPC_H3K27ac.500bp.pt",
+        "H3K27me3": "bigWig_H1NPC_H3K27me3.500bp.pt",
+        "H3K36me3": "bigWig_H1NPC_H3K36me3.500bp.pt",
+        "H3K4me1":  "bigWig_H1NPC_H3K4me1.500bp.pt",
+        "H3K4me3":  "bigWig_H1NPC_H3K4me3.500bp.pt",
+        "H3K9me3":  "bigWig_H1NPC_H3K9me3.500bp.pt"
+    }
+}
